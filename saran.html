@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Saran</title>
+    <link rel="stylesheet" href="saran.css">
+</head>
+<body>
+    <div class="container">
+        <form autocomplete="off">
+            <h4>Saran</h4>
+            <div class="input-section">
+                <label>Nama<span class="required-color">*</span></label>
+                <input type="text" placeholder="Masukan Nama Depan" id="first-name-input" required/>
+                <span id="first-name-error" class="hide required-color error-message">Inputan tidak valid</span>
+                <span id="empty-first-name" class="hide required-color error-message">Nama Depan Tidak boleh Dikosongkan</span>
+            </div>
+            <div class="input-section">
+                <label>Email<span class="required-color">*</span></label>
+                <input type="email" placeholder="Masukan Email" id="email" required/>
+                <span id="email-error" class="hide required-color error-message">Inputan tidak valid</span>
+                <span id="empty-email" class="hide required-color error-message">Email Tidak boleh Dikosongkan</span>
+            </div>
+            <div class="input-section">
+                <label>Nomor Telepon<span class="required-color">*</span></label>
+                <input type="text" placeholder="Masukan Nomor Telepon" id="phone" required/>
+                <span id="phone-error" class="hide required-color error-message">Nomor Harus Terdiri dari 12 Digit</span>
+                <span id="empty-phone" class="hide required-color error-message">Nomor Telepon Tidak boleh Dikosongkan</span>
+            </div>
+            <div class="input-section">
+                <label>Saran<span class="required-color">*</span></label>
+                <input type="saran" placeholder="Masukkan Saran" id="Saran" required/>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+    <script src="script3.js"></script>
+</body>
+</html>
